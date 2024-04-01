@@ -1,12 +1,27 @@
 {
   "vaultName": "saurav-datta",
-  "lastExport": 1711997099822,
+  "lastExport": 1711997206292,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark native-scrollbars show-inline-title",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "docs/matryoshka-embedding/matryoshka-embedding.md",
+    "docs/activationfunctions/README.md",
+    "docs/activationfunctions/sigmoid.md",
+    "docs/anomaly/autoencoders.md",
+    "docs/anomaly/autoencoders-1.md",
+    "docs/anomaly/dbscan.md",
+    "docs/anomaly/fraud-new.md",
+    "docs/anomaly/generative-adversarial-networks.md",
+    "docs/anomaly/grubbs-test.md",
+    "docs/anomaly/isolation-forest.md",
+    "docs/anomaly/kmeans.md",
+    "docs/anomaly/README.md",
+    "docs/anomaly/time-series.md",
+    "docs/anomaly/z-score-spark-1.md",
+    "docs/attention-mechanism/attention-mechanism.md",
+    "docs/bayesian-optimization/bayesian-optimization.md",
+    "index.md",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -68,177 +83,267 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1711997099822,
-      "sourceSize": 3588,
+      "modifiedTime": 1711997206292,
+      "sourceSize": 17553,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1711997099822,
-      "sourceSize": 322,
+      "modifiedTime": 1711997206292,
+      "sourceSize": 1148,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 157786,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1711997099822,
+      "modifiedTime": 1711997206292,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
-    "docs/matryoshka-embedding/matryoshka-embedding.md": {
-      "modifiedTime": 1711997099822,
-      "sourceSize": 6,
-      "exportedPath": "docs/matryoshka-embedding/matryoshka-embedding.html",
+    "docs/activationfunctions/README.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 77,
+      "exportedPath": "docs/activationfunctions/readme.html",
+      "dependencies": []
+    },
+    "docs/activationfunctions/sigmoid.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 567,
+      "exportedPath": "docs/activationfunctions/sigmoid.html",
+      "dependencies": []
+    },
+    "docs/anomaly/autoencoders.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 59,
+      "exportedPath": "docs/anomaly/autoencoders.html",
+      "dependencies": []
+    },
+    "docs/anomaly/autoencoders-1.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 59,
+      "exportedPath": "docs/anomaly/autoencoders-1.html",
+      "dependencies": []
+    },
+    "docs/anomaly/dbscan.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 53,
+      "exportedPath": "docs/anomaly/dbscan.html",
+      "dependencies": []
+    },
+    "docs/anomaly/fraud-new.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 696,
+      "exportedPath": "docs/anomaly/fraud-new.html",
+      "dependencies": []
+    },
+    "docs/anomaly/generative-adversarial-networks.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 103,
+      "exportedPath": "docs/anomaly/generative-adversarial-networks.html",
+      "dependencies": []
+    },
+    "docs/anomaly/grubbs-test.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 106,
+      "exportedPath": "docs/anomaly/grubbs-test.html",
+      "dependencies": []
+    },
+    "docs/anomaly/isolation-forest.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 100,
+      "exportedPath": "docs/anomaly/isolation-forest.html",
+      "dependencies": []
+    },
+    "docs/anomaly/kmeans.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 53,
+      "exportedPath": "docs/anomaly/kmeans.html",
+      "dependencies": []
+    },
+    "docs/anomaly/README.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 56,
+      "exportedPath": "docs/anomaly/readme.html",
+      "dependencies": []
+    },
+    "docs/anomaly/time-series.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 114,
+      "exportedPath": "docs/anomaly/time-series.html",
+      "dependencies": []
+    },
+    "docs/anomaly/z-score-spark-1.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 108,
+      "exportedPath": "docs/anomaly/z-score-spark-1.html",
+      "dependencies": []
+    },
+    "docs/attention-mechanism/attention-mechanism.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 54,
+      "exportedPath": "docs/attention-mechanism/attention-mechanism.html",
+      "dependencies": []
+    },
+    "docs/bayesian-optimization/bayesian-optimization.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 236,
+      "exportedPath": "docs/bayesian-optimization/bayesian-optimization.html",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1711997206292,
+      "sourceSize": 191,
+      "exportedPath": "index.html",
       "dependencies": []
     }
   }
